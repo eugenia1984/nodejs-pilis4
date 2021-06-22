@@ -6,6 +6,7 @@
 
 Es una **aplicación de consola interactiva** con las siguientes opciones: <br>
 
+
 ```
 ==============================
     Seleccione una opcion
@@ -16,6 +17,7 @@ Es una **aplicación de consola interactiva** con las siguientes opciones: <br>
   2. Historial
   0. Salir
 ```
+
 Voy a tener una lista de ciudades a elegir, y una vez elegida, voy a poder ver de la misma los siguientes datos: <br>
    * Latitud
    * Longitud
@@ -24,9 +26,15 @@ Voy a tener una lista de ciudades a elegir, y una vez elegida, voy a poder ver d
    * Temperatura Máxima
    * Como está el clima
 
+
 Puedo ver en el **historial** las últimas seis búsquedas. <br>
 
-Se conecta a la API de **Mapbox** (geocoding) para las coordenadas y a la API **Open Weather Map** para la información dle clima. <br>
+Se conecta a la API de **Mapbox** (geocoding) para las coordenadas y a la API **Open Weather Map** para la información del clima. <br>
+
+La **base de datos** está en formato **JSON**. <br>
+
+
+---
 
 Punto de entrada: <br>
 ```
@@ -37,6 +45,7 @@ O sino:
 npm start
 ```
 
+---
 
 ##  ¿ Qué hice ?
 
